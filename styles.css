@@ -4,5 +4,9 @@
   font-family: 'Lobster';
   text-transform: lowercase;
   font-weight: bold;
-  margin-left: auto;
+  width: 300px;
+  border: 15px solid;
+  padding: 50px;
+  margin: 20px;
+
 }
