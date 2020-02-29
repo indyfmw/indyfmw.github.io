@@ -2,5 +2,6 @@
 
 .initials{
   font-family: 'Lobster';
-
+  text-transform: lowercase;
+  font-weight: bold;
 }
