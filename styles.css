@@ -1,13 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Noto+Serif|PT+Serif&display=swap');
 
 
-div{
-  display:flex;
-  font-family: 'Lobster';
-  text-transform: lowercase;
-  font-weight: bold;
-  align-content: flex-start;
-}
+
 div#welcome  {
    display: block;
 }
