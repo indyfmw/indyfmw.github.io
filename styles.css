@@ -3,5 +3,6 @@
 body{
     background : url(TerminalBackground.gif);
     background-size: cover;
+    background-position: center center;
     background-attachment: fixed;
 }
