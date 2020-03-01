@@ -14,3 +14,14 @@ h3{
   font-family: 'Playfair Display';
   color: mediumvioletred;
 }
+.Resume{
+  height: 66vh;
+}
+.Resume a {
+  font-family: 'Playfair Display';
+  text-decoration: none;
+}
+.Resume a:hover{
+  font-family: 'Inconsolata';
+  text-decoration: rgb(141, 15, 95);
+}
