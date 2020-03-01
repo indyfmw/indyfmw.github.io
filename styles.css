@@ -2,7 +2,7 @@
 
 body{
     background : url(TerminalBackground.gif);
-    background-size: cover;
-    background-position: center center;
+    background-repeat: repeat;
+    background-position: center;
     background-attachment: fixed;
 }
