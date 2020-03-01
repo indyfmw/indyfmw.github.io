@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster|Noto+Serif|PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Caladea|Inconsolata|Libre+Baskerville|Playfair+Display|Simonetta&display=swap');
 
 body{
     background : url(TerminalBackground.gif);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+}
+h3{
+  font-family: 'Playfair Display';
+  color: mediumvioletred;
 }
