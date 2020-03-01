@@ -6,6 +6,10 @@ body{
     background-position: center center;
     background-attachment: fixed;
 }
+h1,h2 {
+  font-family: 'Playfair Display';
+  color: rgb(141, 15, 95);
+}
 h3{
   font-family: 'Playfair Display';
   color: mediumvioletred;
