@@ -6,6 +6,5 @@
   font-family: 'Lobster';
   text-transform: lowercase;
   font-weight: bold;
-  flex-wrap: wrap;
   align-content: flex-start;
 }
