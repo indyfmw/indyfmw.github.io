@@ -1,20 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Noto+Serif|PT+Serif&display=swap');
 
-
-
-
-div#welcome  {
-   display: block;
-}
-
-.bigtitle  {
-   font-size: 36px;
-   font-family:'Times New Roman', Times, serif;
-   font-weight:bold;
-   float:left;
-}
-
-.littletitle  {
-   font-size: 24px;
-   font-family:'Times New Roman', Times, serif;
-   float:right;
+body{
+  background-image: image(TerminalBackground.gif);
 }
