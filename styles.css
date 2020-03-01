@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Noto+Serif|PT+Serif&display=swap');
 
-.initials{
+
+.name{
+  display:flex;
   font-family: 'Lobster';
   text-transform: lowercase;
   font-weight: bold;
-  width: 300px;
-  border: 15px solid;
-  padding: 50px;
-  margin: 20px;
-
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
