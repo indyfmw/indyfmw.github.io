@@ -3,7 +3,3 @@
 body{
   background-image: image(TerminalBackground.gif);
 }
-
-.Resume a:hover{
-  text-decoration: none;
-}
