@@ -15,6 +15,11 @@ h3{
   font-family: 'Playfair Display';
   color: mediumvioletred;
 }
+
+div{
+  border 20px solid blue;
+}
+
 .Resume{
   height: 66vh;
   padding-left: 4vh; 
