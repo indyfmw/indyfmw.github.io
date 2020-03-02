@@ -36,12 +36,12 @@ div {
 .Resume a {
   font-family: 'Playfair Display';
   text-decoration: none;
-  -webkit-text-stroke-color: rgb(235, 55, 205);
   font-size: 150px;
 }
 .Resume a:hover{
   font-family: 'Inconsolata';
-  text-decoration: rgb(141, 15, 95);
+  color: rgb(141, 15, 95);
+  text-decoration: underline;
 }
 a:-webkit-any-link {
   color: rgb(235, 55, 205);
