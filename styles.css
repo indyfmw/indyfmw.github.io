@@ -16,8 +16,10 @@ h3{
   color: mediumvioletred;
 }
 
-div{
-  border 20px solid blue;
+div {
+  width: 100px;
+  height: 50px;
+  border: solid black 4px;
 }
 
 .Resume{
