@@ -17,7 +17,9 @@ h3{
 }
 
 div { 
-  border: solid rgb(158, 0, 100) 20px;
+   border-style: dotted;
+   border-width: thick;
+   border-color: palevioletred;
 }
 
 .Resume{
