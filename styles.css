@@ -48,3 +48,6 @@ a:-webkit-any-link {
 
 }
 
+ul{
+  list-style-image: url(TerminalBullet.gif);
+}
