@@ -41,7 +41,6 @@ div {
 .Resume a:hover{
  font-family: 'Lobster';
   color: rgb(141, 15, 95);
-  text-decoration: underline;
 }
 a:-webkit-any-link {
   color: rgb(235, 55, 205);
