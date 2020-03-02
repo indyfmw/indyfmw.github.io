@@ -30,7 +30,7 @@ div {
 
 .Resume{
   height: 66vh;
-  padding-left: 4vh; 
+   background : url(NameIndexBack.GIF);
 }
 .Resume a {
   font-family: 'Playfair Display';
