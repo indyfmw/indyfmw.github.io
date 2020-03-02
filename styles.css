@@ -36,9 +36,15 @@ div {
   font-family: 'Playfair Display';
   text-decoration: none;
   -webkit-text-stroke-color: rgb(235, 55, 205);
-  font-size: 300px;
+  font-size: 150px;
 }
 .Resume a:hover{
   font-family: 'Inconsolata';
   text-decoration: rgb(141, 15, 95);
 }
+a:-webkit-any-link {
+  color: rgb(235, 55, 205);
+  cursor: pointer;
+
+}
+
