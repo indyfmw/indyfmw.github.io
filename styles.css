@@ -40,6 +40,13 @@ div {
   align-items: center;
   justify-content: center;
 }
+.PicMe{
+  height: 350px;
+  width: 250px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
 .Resume a {
   font-family: 'Playfair Display';
   text-decoration: none;
