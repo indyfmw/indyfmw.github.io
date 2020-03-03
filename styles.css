@@ -36,9 +36,8 @@ div {
 .butt{
   text-align: center;
   background: rgba(255, 255, 255, 0.75);
-  display: flex;
   align-items: center;
-
+  justify-content: center;
 }
 .Resume a {
   font-family: 'Playfair Display';
