@@ -33,7 +33,9 @@ div {
    background : url(NameIndexBack.GIF);
    background-size: 100px, auto;
 }
-
+.butt{
+  background: rgba(255, 255, 255, 0.5);
+}
 .Resume a {
   font-family: 'Playfair Display';
   text-decoration: none;
