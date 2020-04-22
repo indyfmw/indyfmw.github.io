@@ -1,57 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster|Playfair+Display&display=swap');
+
 
 body{
-    background : url(TerminalBackground.gif);
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    padding-left: 4vh; 
-}
-h1,h2 {
-  font-family: 'Playfair Display';
-  color: rgb(141, 15, 95); 
-}
-h3{
-  font-family: 'Playfair Display';
-  color: mediumvioletred;
+	background-image: url("PurpleSky.GIF");
+	background-attachment: fixed;
+	background-size: 75%;
+	
 }
 
-div { 
-   border-style: dotted;
-   border-width: thick;
-   border-color: palevioletred;
-}
-
-.me{
-  font-size: large;
-  font-weight: bold;
-  font-family: 'Playfair Display';
-} 
-
-.Resume{
-  height: 66vh;
-   background : url(NameIndexBack.GIF);
-   background-size: 100px, auto;
-}
-.butt{
-  text-align: center;
-  background: rgba(255, 255, 255, 0.75);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.Resume a {
-  font-family: 'Playfair Display';
-  text-decoration: none;
-  font-size: 150px;
-}
-.Resume a:hover{
- font-family: 'Lobster';
-  color: rgb(141, 15, 95);
-}
-a:-webkit-any-link {
-  color: rgb(235, 55, 205);
-  cursor: pointer;
-
+.logo{
+	
 }
