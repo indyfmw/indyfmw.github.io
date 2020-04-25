@@ -24,16 +24,18 @@ body{
 	height: auto;
 	opacity: 0.5;
 	-webkit-animation:
-			cloud 5s infinite alternate;
+			clouds 5s infinite alternate;
 }
 
 @-webkit-keyframes clouds{
 	
 	0%{
-		left:0%;
+		left:1px;
+		top: 0px;
 	}
 	
 	100%{
-		left: -100%;
+		left: 100px;
+		top: 0px;
 	}
 }
