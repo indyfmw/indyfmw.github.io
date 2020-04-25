@@ -17,8 +17,8 @@ body{
 	width: 1024px;
 	height: auto;
 	opacity: 0.75;
-	 position: absolute;
-	 animation-duration: 9s;
+	 position: fixed;
+	 animation-duration: 13s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -30,7 +30,7 @@ body{
     top: 80%;
     left: 20%;
 	opacity: 0.5;
-	animation-duration: 10s;
+	animation-duration: 12s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -38,11 +38,11 @@ body{
 .clouds3{
 	width: 450px;
 	height: auto;
-	position: inherit;
+	position: fixed;
     top: 80%;
     left: 20%;
 	opacity: 0.5;
-	animation-duration: 10s;
+	animation-duration: 11s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation-direction: alternate;
