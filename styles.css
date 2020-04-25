@@ -26,7 +26,7 @@ body{
 .clouds2{
 	width: 512px;
 	height: auto;
-	position: relative;
+	position: fixed;
     top: 80%;
     left: 20%;
 	opacity: 0.5;
