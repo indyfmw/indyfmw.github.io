@@ -7,9 +7,9 @@ body{
 	
 }
 
-.Title{
-	font: Silkscreen, "Silkscreen Expanded";
-	
+.Title, .name{
+	font-family: Silkscreen, "Silkscreen Expanded";
+	color: #ffb8db;
 }
 
 .logo{
