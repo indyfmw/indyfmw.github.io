@@ -53,10 +53,14 @@ body{
 	width: 200px;
 	height: auto;
 	opacity: 0.75;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-name: button;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+}
+
+ul {
+	list-style-type: none;
 }
 
 
