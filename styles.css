@@ -18,6 +18,7 @@ body{
 	height: auto;
 	opacity: 0.45;
 	 position: fixed;
+	top: 40%;
 	 animation-duration: 13s;
   animation-name: slidein;
   animation-iteration-count: infinite;
@@ -48,6 +49,10 @@ body{
   animation-direction: alternate;
 }
 
+.ABbutt,.HomeButt,.WorkButt,.ContactButt{
+	width: 200px;
+	height: auto;
+}
 
 @keyframes slidein {
   from {
