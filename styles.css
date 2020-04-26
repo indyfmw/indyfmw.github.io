@@ -2,7 +2,7 @@
 
 body{
 	background-image: url("Backgrounds/PurpleSky.GIF");
-	background-attachment: local;
+	background-attachment: fixed;
 
 	background-size: cover;
 	
