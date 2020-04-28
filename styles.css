@@ -8,6 +8,17 @@ body{
 	
 }
 
+path,.curve {
+	fill: transparent;
+	
+}
+
+text{
+	fill: #ffb8db;
+	font-family: Silkscreen, "Silkscreen Expanded";
+
+}
+
 .Title, .name{
 	font-family: Silkscreen, "Silkscreen Expanded";
 	color: #ffb8db;
