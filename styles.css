@@ -16,6 +16,8 @@ body{
 .Title, .name{
 	font-family: Silkscreen, "Silkscreen Expanded";
 	color: #ffb8db;
+	display: flex;
+    justify-content: center;
 }
 .logo{
 	position: relative;
