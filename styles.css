@@ -17,11 +17,12 @@ body{
 	font-family: Silkscreen, "Silkscreen Expanded";
 	color: #ffb8db;
 }
-
 .logo{
-	width: 256px;
-	height: auto;
 	position: relative;
+	 display: block;
+  	margin-left: auto;
+ 	 margin-right: auto;
+  	width: 25%;
 	}
 
 .clouds1{
@@ -68,10 +69,7 @@ body{
 	width: 200px;
 	height: auto;
 	opacity: 0.75;
-  animation-duration: 2s;
-  animation-name: button;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+
 }
 
 ul {
