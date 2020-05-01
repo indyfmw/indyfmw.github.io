@@ -71,7 +71,7 @@ body{
 	width: 200px;
 	height: auto;
 	opacity: 0.75;
-	animation-duration: 7s;
+	animation-duration: 10s;
 	nimation-delay: 1s;
     animation-name:button;
 	animation-iteration-count: infinite;
@@ -79,10 +79,7 @@ body{
 	
 }
 
-a.HomeButt:hover, a.ABbutt:hover, a.WorkButt:hover, a.ContactButt:hover{
-	  animation-play-state: paused;
 
-}
 
 ul {
 	list-style-type: none;
@@ -103,11 +100,12 @@ ul {
 }
 @keyframes slidein {
   from {
-		transform: translate(-60px, 0px);
-	}
-	65%{
-		transform: translate(2000px, 0px);
-	}
-	to {
-		transform: translate(-60px, -0px);
+    left: 1700px;
+    
+  }
+
+  to {
+    left: -900px;
+  
+  }
 }
