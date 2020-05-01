@@ -76,13 +76,18 @@ body{
     animation-name:button;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
-
+	
 }
 
+a.HomeButt:hover, a.ABbutt:hover, a.WorkButt:hover, a.ContactButt:hover{
+	  animation-play-state: paused;
+
+}
 
 ul {
 	list-style-type: none;
 }
+
 
 
 @keyframes button{
