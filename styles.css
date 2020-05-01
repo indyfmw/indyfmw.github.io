@@ -103,12 +103,11 @@ ul {
 }
 @keyframes slidein {
   from {
-    left: 1700px;
-    
-  }
-
-  to {
-    left: -900px;
-  
-  }
+		transform: translate(-60px, 0px);
+	}
+	65%{
+		transform: translate(2000px, 0px);
+	}
+	to {
+		transform: translate(-60px, -0px);
 }
