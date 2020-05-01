@@ -71,7 +71,7 @@ body{
 	width: 200px;
 	height: auto;
 	opacity: 0.75;
-	animation-duration: 3s;
+	animation-duration: 5s;
     animation-name:button;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
@@ -86,13 +86,13 @@ ul {
 
 @keyframes button{
 	from {
-		transform: translate(0, 0px);
+		transform: translate(-60px, 0px);
 	}
 	65%{
-		transform: translate(0, 15px);
+		transform: translate(60px, 0px);
 	}
 	to {
-		transform: translate(0, -0px);
+		transform: translate(-60px, -0px);
 	}
 }
 @keyframes slidein {
