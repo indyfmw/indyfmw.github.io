@@ -1,0 +1,59 @@
+@charset "utf-8";
+body{
+	background-image: url("../Backgrounds/PurpleSky.GIF");
+	background-attachment: fixed;
+	background-size: cover;
+	
+}
+
+#LineUp {
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.Title, .name{
+	font-family: Silkscreen, "Silkscreen Expanded";
+	color: #ffb8db;
+	display: flex;
+    justify-content: center;
+}
+.logo{
+	position: relative;
+	 display: block;
+  	margin-left: auto;
+ 	 margin-right: auto;
+  	width: 25%;
+	}
+
+.ABbutt,.HomeButt,.WorkButt,.ContactButt{
+	width: 200px;
+	height: auto;
+	opacity: 0.75;
+	animation-duration: 10s;
+	nimation-delay: 1s;
+    animation-name:button;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	
+}
+
+
+
+ul {
+	list-style-type: none;
+}
+
+
+
+@keyframes button{
+	from {
+		transform: translate(-60px, 0px);
+	}
+	65%{
+		transform: translate(60px, 0px);
+	}
+	to {
+		transform: translate(-60px, -0px);
+	}
+}
