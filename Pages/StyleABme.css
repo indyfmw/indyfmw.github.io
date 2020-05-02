@@ -52,7 +52,7 @@ body{
 	
 }
 
-selection{
+::selection{
 	color: deeppink;
 	background: blueviolet;
 }
