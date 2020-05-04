@@ -1,4 +1,10 @@
 @charset "utf-8";
+
+@font-face{
+	font-family: Silkscreen, "Silkscreen Expanded";
+	src:url("../Fonts/slkscre.ttf");
+}
+
 body{
 	background-image: url("../Backgrounds/PurpleSky.GIF");
 	background-attachment: fixed;
