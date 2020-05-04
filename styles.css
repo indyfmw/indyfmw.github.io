@@ -1,4 +1,9 @@
-
+@font-face{
+	font-family: Silkscreen, "Silkscreen Expanded";
+	src: url("../Fonts/slkscre.ttf");
+	font-style: normal;
+	font-weight: 100;
+}
 
 body{
 	background-image: url("Backgrounds/PurpleSky.GIF");
