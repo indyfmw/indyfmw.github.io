@@ -7,7 +7,7 @@ body {
 
 /* Header Section */
 header {
-    background: linear-gradient(to bottom, #a4508b, #5f0a87);
+    background: linear-gradient(to bottom, #a4508b, #FABCFA);
     text-align: center;
     color: white;
     padding: 20px 0;
@@ -36,7 +36,7 @@ nav a {
 .intro {
     text-align: center;
     padding: 20px;
-    background: #f7c7db;
+    background: linear-gradient(to bottom, #FABCFA, #ffffff);
     color: black;
 }
 
