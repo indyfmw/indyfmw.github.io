@@ -36,6 +36,14 @@ nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    padding: 10px 15px; /* Add some padding for a button-like appearance */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Adds a black transparent shadow */
+    border-radius: 5px; /* Optional: Rounded corners for buttons */
+    background-color: rgba(255, 255, 255, 0.1); /* Optional: Slight background color change */
 }
 
 nav .logo img {
@@ -65,10 +73,11 @@ img {
 }
 
 /* Cards Section */
+/* Cards Section */
 .cards {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr); /* Three cards in a row */
+    gap: 20px; /* Space between cards */
     padding: 20px;
     background: #ffffff;
 }
@@ -93,6 +102,7 @@ img {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .card button:hover {
