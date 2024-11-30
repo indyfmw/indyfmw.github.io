@@ -54,7 +54,6 @@ nav .logo img {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(to bottom, #ff69b4, #8a2be2); /* Gradient background */
     color: white;
     padding: 50px;
     display: flex;
