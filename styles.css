@@ -39,6 +39,10 @@ nav a {
     background: linear-gradient(to bottom, #FABCFA, #ffffff);
     color: black;
 }
+.funstuff {
+	text-align: right;
+
+}
 
 .intro img {
     width: 150px;
