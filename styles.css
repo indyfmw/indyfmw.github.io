@@ -64,13 +64,12 @@ nav .logo img {
 
 .hero-content {
     display: flex; /* Align image and text side by side */
-    align-items: center; /* Vertically center the image and text */
     gap: 20px; /* Minimal space between image and text */
 }
 
 .hero-image {
-    width: 150px; /* Adjust the size of your image */
-    height: 150px;
+    width: 550px; /* Adjust the size of your image */
+    height: 550px;
     object-fit: cover;
     border-radius: 50%; /* Make it circular */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for a polished look */
@@ -80,16 +79,12 @@ nav .logo img {
 .hero-text h2, 
 .hero-text h3 {
     margin: 5px 0; /* Minimal spacing between lines of text */
-}
-
-.hero-text h1 {
-    font-size: 2rem; /* Larger size for the main title */
+	font-size: 2rem; /* Larger size for the main title */
     font-weight: bold;
+	text-align: right;
+	margin-right: 25px;
 }
 
-.hero-text h2, .hero-text h3 {
-    font-size: 1.5rem; /* Slightly smaller for subtitles */
-}
 
 /* Cards Section */
 .cards {
