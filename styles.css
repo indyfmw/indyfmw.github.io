@@ -52,24 +52,43 @@ nav .logo img {
     margin: 0 10px; /* Add spacing around the logo */
 }
 
-/* Intro Section */
-.intro {
-    text-align: center;
-    padding: 20px;
-    background: linear-gradient(to bottom, #FABCFA, #ffffff);
-    color: black;
-}
-.funstuff {
-	text-align: right;
-	margin-right: 10px;
-
+/* Hero Section */
+.hero {
+    background: linear-gradient(to bottom, #ff69b4, #8a2be2); /* Gradient background */
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-img {
-	border-radius: 8px;
-    width: 150px;
+.hero-content {
+    display: flex; /* Align image and text side by side */
+    align-items: center; /* Vertically center the image and text */
+    gap: 20px; /* Minimal space between image and text */
+}
+
+.hero-image {
+    width: 150px; /* Adjust the size of your image */
     height: 150px;
-    margin-bottom: 15px;
+    object-fit: cover;
+    border-radius: 50%; /* Make it circular */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for a polished look */
+}
+
+.hero-text h1, 
+.hero-text h2, 
+.hero-text h3 {
+    margin: 5px 0; /* Minimal spacing between lines of text */
+}
+
+.hero-text h1 {
+    font-size: 2rem; /* Larger size for the main title */
+    font-weight: bold;
+}
+
+.hero-text h2, .hero-text h3 {
+    font-size: 1.5rem; /* Slightly smaller for subtitles */
 }
 
 /* Cards Section */
