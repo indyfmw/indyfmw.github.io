@@ -12,11 +12,6 @@ header {
     color: white;
     padding: 20px 0;
 }
-.BriefMe{
-	background: linear-gradient(to bottom, #FABCFA, white);
-	text-align: center;
-	font-size: medium;
-}
 
 header h1 {
     margin: 10px 0;
@@ -55,6 +50,11 @@ nav .logo img {
     height: 40px; /* Adjust the logo size as needed */
     width: auto;
     margin: 0 10px; /* Add spacing around the logo */
+}
+.BriefMe{
+	background: linear-gradient(to bottom, #FABCFA, white);
+	text-align: center;
+	font-size: medium;
 }
 
 /* Hero Section */
