@@ -1,8 +1,83 @@
 
 
-body{
-	background-image: url("Backgrounds/Background.png");
-	background-attachment: fixed;
-	background-size: cover;
-	
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Section */
+header {
+    background: linear-gradient(to bottom, #a4508b, #5f0a87);
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Intro Section */
+.intro {
+    text-align: center;
+    padding: 20px;
+    background: #f7c7db;
+    color: black;
+}
+
+.intro img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Cards Section */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background: #ffffff;
+}
+
+.card {
+    background: red;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background: #e0e0e0;
 }
