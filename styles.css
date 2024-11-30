@@ -69,7 +69,7 @@ nav .logo img {
 
 .hero-content {
     display: flex; /* Align image and text side by side */
-    gap: 20px; /* Minimal space between image and text */
+    gap: 350px; /* Minimal space between image and text */
 }
 
 .hero-image {
