@@ -8,6 +8,7 @@ body {
 /* Header Section */
 header {
     background: linear-gradient(to bottom, #a4508b, #FABCFA, #ffffff);
+	background-size: cover;
     text-align: center;
     color: white;
     padding: 20px 0;
