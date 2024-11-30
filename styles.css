@@ -12,6 +12,11 @@ header {
     color: white;
     padding: 20px 0;
 }
+.BriefMe{
+	background: linear-gradient(to bottom, #FABCFA, white);
+	text-align: center;
+	font-size: medium;
+}
 
 header h1 {
     margin: 10px 0;
