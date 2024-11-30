@@ -70,12 +70,10 @@ nav .logo img {
 }
 
 .hero-image {
-    width: 550px; /* Adjust the size of your image */
-    height: 550px;
+	width: 350px;
+    height: 450px;
     object-fit: cover;
-    border-radius: 50%; /* Make it circular */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for a polished look */
-	justify-content: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .hero-text h1, 
