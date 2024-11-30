@@ -57,8 +57,6 @@ nav .logo img {
     color: white;
     padding: 50px;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .hero-content {
@@ -72,6 +70,7 @@ nav .logo img {
     object-fit: cover;
     border-radius: 50%; /* Make it circular */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for a polished look */
+	justify-content: left;
 }
 
 .hero-text h1, 
