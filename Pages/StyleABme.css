@@ -41,7 +41,19 @@ nav .logo img {
     margin: 0 10px; /* Add spacing around the logo */
 	animation: bounce-spin 3s ease-in-out infinite;
 }
+.title{
+    color: black;
+    text-decoration: wavy;
+    text-decoration-color: indigo;
+    text-align: left;
+	font-family: "Poppins", sans-serif;
+    font-style: bold;
+	font-weight: 600;
+	font-size:larger;
+
+}
 .aboutme{
+    color: black;
     text-align: left;
 	font-family: "Poppins", sans-serif;
 	font-weight: 400;
