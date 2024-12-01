@@ -62,23 +62,23 @@ nav .logo img {
 	margin: 25px;
 }
 
-/* Hero Section */
 .hero {
     color: white;
-		display: flex;
-		padding: 50px;
-		gap: 350px;
-		justify-content: center;
-		align-items: center;
+    display: flex;
+    padding: 50px;
+    gap: 350px;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-content {
     display: flex; /* Align image and text side by side */
-    gap: 350px; /* Minimal space between image and text */
+    gap: 350px; /* Space between image and text */
+    align-items: center; /* Vertically center the text next to the image */
 }
 
 .hero-image {
-	width: 350px;
+    width: 350px;
     height: 450px;
     object-fit: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -88,10 +88,10 @@ nav .logo img {
 .hero-text h2, 
 .hero-text h3 {
     margin: 5px 0; /* Minimal spacing between lines of text */
-	font-size: 2rem; /* Larger size for the main title */
+    font-size: 2rem; /* Larger size for the main title */
     font-weight: bold;
-	text-align: right;
-	margin-right: 25px;
+    text-align: right;
+    margin-right: 25px;
 }
 
 
