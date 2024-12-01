@@ -48,9 +48,10 @@ nav a:hover {
 }
 
 nav .logo img {
-    height: 40px; /* Adjust the logo size as needed */
+    height: 60px; /* Adjust the logo size as needed */
     width: auto;
     margin: 0 10px; /* Add spacing around the logo */
+	animation: bounce-spin 3s ease-in-out infinite;
 }
 .BriefMe{
 	text-align: center;
@@ -139,4 +140,21 @@ nav .logo img {
 
 .card:hover .card-text {
     opacity: 1; /* Reveals the text on hover */
+}
+@keyframes bounce-spin {
+    0% {
+        transform: translateY(0) rotate(0deg); /* Initial state */
+    }
+    25% {
+        transform: translateY(-10px) rotate(10deg); /* Move up and rotate slightly */
+    }
+    50% {
+        transform: translateY(0) rotate(0deg); /* Back to original position */
+    }
+    75% {
+        transform: translateY(-5px) rotate(-10deg); /* Move up slightly and rotate in opposite direction */
+    }
+    100% {
+        transform: translateY(0) rotate(0deg); /* Back to initial state */
+    }
 }
