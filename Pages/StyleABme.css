@@ -44,9 +44,8 @@ nav .logo img {
 .aboutme{
     text-align: left;
 	font-family: "Poppins", sans-serif;
-	font-weight: 300;
-	font-style: italic;
-	font-size: small;
+	font-weight: 400;
+	font-size:medium;
 	margin: 25px;
 }
 @keyframes bounce-spin {
