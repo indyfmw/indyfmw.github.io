@@ -64,8 +64,11 @@ nav .logo img {
 /* Hero Section */
 .hero {
     color: white;
-    padding: 50px;
-    display: flex;
+		display: flex;
+		padding: 50px;
+		gap: 350px;
+		justify-content: center;
+		align-items: center;
 }
 
 .hero-content {
