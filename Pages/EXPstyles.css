@@ -67,7 +67,13 @@ h2 {
     text-align: center;
     color: #333; /* Neutral black tone */
 }
-
+.education-item{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    color: black; /* Text inside experience items */
+    text-align: left;
+}
 .experience-item {
     display: flex;
     align-items: center;
