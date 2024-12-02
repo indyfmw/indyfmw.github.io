@@ -62,6 +62,15 @@ nav .logo img {
 	font-weight: 400;
 	font-size:medium;
 	margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+    text-align: left;
 }
 @keyframes bounce-spin {
     0% {
