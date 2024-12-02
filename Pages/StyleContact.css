@@ -44,7 +44,75 @@ nav .logo img {
     margin: 0 10px; /* Add spacing around the logo */
 	animation: bounce-spin 3s ease-in-out infinite;
 }
-
+/* Contact Container */
+.contact-container {
+    max-width: 600px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  input:focus, textarea:focus {
+    outline: none;
+    border: 2px solid #2575fc;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  /* Button Styles */
+  .btn {
+    background-color: #2575fc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color: #6a11cb;
+    transition: background-color 0.3s;
+  }
+  
+  /* Response Message */
+  .hidden {
+    display: none;
+  }
+  
+  #response-message {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
 
 @keyframes bounce-spin {
     0% {
