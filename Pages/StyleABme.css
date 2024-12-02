@@ -71,6 +71,7 @@ nav .logo img {
     padding: 10px;
     background-color: #fff;
     text-align: left;
+    text-indent: 30px;
 }
 @keyframes bounce-spin {
     0% {
