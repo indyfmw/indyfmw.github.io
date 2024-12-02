@@ -1,4 +1,3 @@
-// Open Modal and Inject Content
 function expandProject(card) {
     const modal = document.getElementById('project-modal');
     const modalDetails = document.getElementById('modal-details');
@@ -16,12 +15,10 @@ function expandProject(card) {
     `;
   
     // Show the modal
-    modal.style.display = 'flex';
+    modal.classList.add('show');
   }
   
-  // Close Modal
   function closeModal() {
     const modal = document.getElementById('project-modal');
-    modal.style.display = 'none';
+    modal.classList.remove('show');
   }
-  

@@ -5,7 +5,7 @@ body {
     background: linear-gradient(to bottom, #a4508b, #FABCFA, #ffffff);
 	background-size: cover;
     text-align: center;
-    color: white;
+    color: black;
     padding: 20px 0;
 }
   
@@ -45,7 +45,7 @@ body {
   
   /* Modal Styles */
   .modal {
-    display: none; /* Hidden by default */
+    display: none; /* Start hidden */
     position: fixed;
     top: 0;
     left: 0;
@@ -55,6 +55,10 @@ body {
     z-index: 1000;
     justify-content: center;
     align-items: center;
+  }
+  
+  .modal.show {
+    display: flex; /* Show modal when .show class is added */
   }
   
   .modal-content {
