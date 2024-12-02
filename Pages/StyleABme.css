@@ -28,20 +28,20 @@ nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    padding: 10px 15px; /* Add some padding for a button-like appearance */
-    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    padding: 10px 15px; 
+    transition: all 0.3s ease;
 }
 
 nav a:hover {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Adds a black transparent shadow */
-    border-radius: 5px; /* Optional: Rounded corners for buttons */
-    background-color: rgba(255, 255, 255, 0.1); /* Optional: Slight background color change */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+    border-radius: 5px; 
+    background-color: rgba(255, 255, 255, 0.1); 
 }
 
 nav .logo img {
-    height: 60px; /* Adjust the logo size as needed */
+    height: 60px;
     width: auto;
-    margin: 0 10px; /* Add spacing around the logo */
+    margin: 0 10px; 
 	animation: bounce-spin 3s ease-in-out infinite;
 }
 .title{
