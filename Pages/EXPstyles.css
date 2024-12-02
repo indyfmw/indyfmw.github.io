@@ -119,6 +119,48 @@ p {
     color: black; /* Ensure all text remains black */
 } 
 
+#resume {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.resume-download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.resume-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+}
+
+.resume-details {
+    text-align: left;
+    max-width: 400px;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #a4508b;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #FABCFA;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
 
 @keyframes bounce-spin {
     0% {
