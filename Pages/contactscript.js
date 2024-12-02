@@ -1,20 +1,26 @@
+// Initialize EmailJS
+emailjs.init('_CyuVBREkOBvpex6B'); // Replace with your Public Key from EmailJS
+
 document.getElementById('contact-form').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent form submission
-  
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
-  
-    const responseMessage = document.getElementById('response-message');
-  
-    // Simple form validation and feedback
-    if (name && email && message) {
-      responseMessage.textContent = `Thank you, ${name}! Your message has been sent.`;
-      responseMessage.style.backgroundColor = 'rgba(0, 255, 0, 0.2)';
-      responseMessage.classList.remove('hidden');
-    } else {
-      responseMessage.textContent = 'Please fill out all fields.';
-      responseMessage.style.backgroundColor = 'rgba(255, 0, 0, 0.2)';
-      responseMessage.classList.remove('hidden');
-    }
-  });
+  event.preventDefault(); // Prevent default form submission
+
+  // Get form values
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('message').value;
+
+  // EmailJS parameters
+  const templateParams = {
+    name: name,
+    email: email,
+    message: message,
+  };
+
+  // Send email using EmailJS
+  emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)
+    .then(function(response) {
+      alert('Message sent successfully!');
+    }, function(error) {
+      alert('Failed to send the message. Please try again later.');
+    });
+});
