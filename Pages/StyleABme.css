@@ -45,6 +45,8 @@ nav .logo img {
 	animation: bounce-spin 3s ease-in-out infinite;
 }
 .title{
+    display: flex;
+    justify-content: center;
     color: black;
     text-decoration: wavy;
     text-decoration-color: indigo;
