@@ -45,6 +45,41 @@ nav .logo img {
 	animation: bounce-spin 3s ease-in-out infinite;
 }
 
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    color: #990099;
+}
+
+.education-item, .experience-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.education-item img, .experience-item img {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+
+.education-item div, .experience-item div {
+    max-width: 600px;
+}
+
+p {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
 
 @keyframes bounce-spin {
     0% {
