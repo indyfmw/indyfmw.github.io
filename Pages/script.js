@@ -22,3 +22,13 @@ function expandProject(card) {
     const modal = document.getElementById('project-modal');
     modal.classList.remove('show');
   }
+
+function toggleSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    if (section.style.display === "block") {
+        section.style.display = "none";
+    } else {
+        section.style.display = "block";
+    }
+}
+
