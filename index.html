@@ -68,22 +68,6 @@
         </div>
     </div>
 </section>
-	<script>
-  function toggleMenu() {
-    const menu = document.querySelector('.menu');
-    menu.classList.toggle('show');
-}
-
-// Close menu when clicking outside
-document.addEventListener('click', function (event) {
-    const menu = document.querySelector('.menu');
-    const toggleButton = document.querySelector('.menu-toggle');
-
-    if (!menu.contains(event.target) && event.target !== toggleButton) {
-        menu.classList.remove('show');
-    }
-});
-</script>
 	</body>
 	<footer>
 		<p>Contact me with email ifw702@gmail.com</p>
