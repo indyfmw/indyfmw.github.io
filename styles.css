@@ -66,14 +66,14 @@ nav .logo img {
     color: black;
     display: flex;
     padding: 50px;
-    gap: 350px;
+    gap: 50px;
     justify-content: center;
     align-items: center;
 }
 
 .hero-content {
     display: flex; 
-    gap: 350px; 
+    gap: 50px; 
     align-items: center;
 }
 
