@@ -23,10 +23,11 @@
 		</ul>
 	</nav>
 	
-      <div class="grid-container">
+
 	      <div class="project-section">
     <button class="toggle-button" onclick="toggleSection('work-projects')">Work Projects</button>
     <div id="work-projects" class="project-content">
+	<div class="grid-container">
         <!-- Project Card -->
         <div class="project-card" onclick="expandProject(this)">
           <img src="../Images/googleproject.png" alt="Project 1 Thumbnail">
@@ -111,12 +112,26 @@
         <div class="modal-content" onclick="event.stopPropagation()">
           <span class="close" onclick="closeModal()">&times;</span>
           <div id="modal-details">
-            <!-- Content dynamically injected -->
           </div>
         </div>
       </div>
 	      </div>
       </div>
+
+<div class="project-section">
+    <button class="toggle-button" onclick="toggleSection('student-projects')">Student Projects</button>
+    <div id="student-projects" class="project-content">
+        <!-- Placeholder for Student Projects -->
+        <div class="project-card">
+            <img src="../Images/placeholder.png" alt="Coming Soon">
+            <div class="project-info">
+                <h3>Coming Soon</h3>
+                <p>Projects from my Master's in Instructional Design will be showcased here soon!</p>
+            </div>
+        </div>
+        <!--placeholder-->
+    </div>
+</div>
 
       <script src="script.js"></script>
     
