@@ -1,13 +1,20 @@
 body {
-
     margin: 0;
-    font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
     background: linear-gradient(to bottom, #a4508b, #FABCFA, #ffffff);
 	background-size: cover;
 	 background-repeat: no-repeat;
     text-align: center;
     color: black;
     padding: 20px 0;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
   
   /* Grid Layout */
