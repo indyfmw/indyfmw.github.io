@@ -162,31 +162,12 @@ nav .logo img {
 }
 
 @media only screen and (max-width: 768px) {
-    /* Navigation Bar */
-    .menu {
-        display: none; /* Hidden by default */
-        flex-direction: column; /* Stack menu items vertically */
-        gap: 10px;
-        position: absolute;
-        top: 50px;
-        left: 0;
-        right: 0;
-        background-color: white;
-        border: 1px solid #ccc;
-        padding: 10px;
-    }
-
-    .menu-toggle {
-        display: block; /* Show the hamburger button */
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        z-index: 100;
-    }
-
-    .menu.show {
-        display: flex; /* Show menu when toggled */
-    }
+    .cards {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
 }
    @media only screen and (max-width: 768px) {
     .hero {
