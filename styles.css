@@ -212,7 +212,7 @@ nav .logo img {
     }
 
     .card {
-        width: 100%; /* Full-width cards for smaller screens */
+        width: 50%; /* Full-width cards for smaller screens */
         margin: auto;
     }
 
@@ -226,7 +226,7 @@ nav .logo img {
 @media only screen and (max-width: 480px) {
     /* Hero Image */
     .hero-image {
-        width: 150px; /* Smaller size for very small screens */
+        width: 250px; /* Smaller size for very small screens */
     }
 
     .hero-text h1,
