@@ -212,7 +212,7 @@ nav .logo img {
     }
 
     .card {
-        width: 50%; /* Full-width cards for smaller screens */
+        width: 100%; /* Full-width cards for smaller screens */
         margin: auto;
     }
 
