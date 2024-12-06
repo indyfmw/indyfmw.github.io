@@ -1,5 +1,4 @@
 
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -95,7 +94,7 @@ nav .logo img {
     text-align: justify;
     margin: 50px 0;
 }
-
+}
 .hero-image {
     width: 350px;
     height: 450px;
@@ -158,6 +157,88 @@ nav .logo img {
 .card:hover .card-text {
     opacity: 1; 
 }
+
+@media only screen and (max-width: 768px) {
+    /* Navigation Bar */
+    .menu {
+        display: none; /* Hidden by default */
+        flex-direction: column; /* Stack menu items vertically */
+        gap: 10px;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        right: 0;
+        background-color: white;
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+
+    .menu-toggle {
+        display: block; /* Show the hamburger button */
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 100;
+    }
+
+    .menu.show {
+        display: flex; /* Show menu when toggled */
+    }
+
+    /* Hero Section */
+    .hero {
+        flex-direction: column; /* Stack hero image and text vertically */
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .hero-image {
+        width: 200px;
+        height: auto;
+    }
+
+    .hero-text h1,
+    .hero-text h2,
+    .hero-text h3 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    /* Cards Section */
+    .cards {
+        grid-template-columns: 1fr; /* Single column for cards */
+    }
+
+    .card {
+        width: 100%; /* Full-width cards for smaller screens */
+        margin: auto;
+    }
+
+    /* Testimonial Box */
+    .testimonial-box {
+        font-size: 0.9rem; /* Adjust font size for readability */
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Hero Image */
+    .hero-image {
+        width: 150px; /* Smaller size for very small screens */
+    }
+
+    .hero-text h1,
+    .hero-text h2,
+    .hero-text h3 {
+        font-size: 1rem; /* Reduce font size further */
+    }
+
+    /* Testimonial Box */
+    .testimonial-box {
+        font-size: 0.8rem; /* Smaller font size */
+    }
+}
+
 @keyframes bounce-spin {
     0% {
         transform: translateY(0) rotate(0deg); /* Initial state */
