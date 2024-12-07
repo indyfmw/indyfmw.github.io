@@ -54,7 +54,12 @@ nav .logo img {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   }
-  
+  .button-container {
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Centers buttons horizontally */
+    gap: 10px; /* Adds space between buttons */
+    margin-top: 20px; /* Adjust spacing from other elements */
+}
   /* Button Styles */
   .btn {
     display: inline-block;
